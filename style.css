@@ -4,3 +4,17 @@ logo {
     font-size: larger;
     color: #37352F;
 }
+
+.flex-recipes {
+    display: flex;
+}
+
+.flex-recipes div img{
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.flex-recipes div a {
+    display: block;
+}
