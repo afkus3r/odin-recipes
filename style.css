@@ -12,6 +12,9 @@ logo {
     flex-wrap: wrap;
 }
 
+.flex-recipes div {
+}
+
 .flex-recipes div img{
     width: 300px;
     height: 150px;
@@ -20,4 +23,9 @@ logo {
 
 .flex-recipes div a {
     display: block;
+    font-size: large;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    color: #37352F;
+    font-weight: 600;
 }
