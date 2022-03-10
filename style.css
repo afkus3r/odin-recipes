@@ -5,6 +5,14 @@ logo {
     color: #37352F;
 }
 
+h1 {
+    text-align: center;
+    color: #37352F;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 65px;
+    font-weight: 900;
+}
+
 .flex-recipes {
     display: flex;
     justify-content: space-around;
