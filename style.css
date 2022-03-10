@@ -12,28 +12,49 @@ logo {
     flex-wrap: wrap;
 }
 
-.flex-recipes div {
-}
-
 .flex-recipes div img{
     width: 300px;
-    height: 270px;
+    height: 300px;
     object-fit: cover;
     border-radius: 30px;
 }
 
-.flex-recipes div a {
+.recipe-detail {
     display: block;
     font-size: large;
     font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-decoration: none;
     color: #37352F;
-    font-weight: 600;
     background-color: lightgrey;
     border-radius: 0px 0px 30px 30px;
-    padding: 25px;
     background: rgba(255,255,255,0.25);
     backdrop-filter: blur(6px);
     border: 1px solid rgba(255,255,255,0.125);
-    margin-top: -78px;
+    margin-top: -90px;
+    max-width: 300px;
+    height: auto;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #37352F;
+    font-weight: 600;
+}
+
+.recipe-detail p {
+    font-size: 13px;
+    margin: 0px;
+}
+
+.author {
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 12px;
+    background-color: #37352F;
+    color: whitesmoke;
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 10px;
+    margin-left: 20px;
 }
